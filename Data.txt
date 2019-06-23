@@ -1,0 +1,20 @@
+Data description:
+To answer the above questions the following data has been collected,
+1) The city of Chicago neighborhood by community area was collected to gather information about the neighborhoods and community area using the below link,
+https://en.wikipedia.org/wiki/List_of_neighborhoods_in_Chicago
+2) The latitude and longitude data of the neighborhood will get collected using the geocoder python library.
+3) Using FourSquare API we will find top 5 venues for each neighborhood.
+4) Various restaurants in the chicago downtown we will explore using Foursquare API to identify the available food options.
+5) Next, vegan restaurant information will get collected using Foursquare API. The following data will provide the information on vegan options available in the Chicago downtown neighborhoods.
+6) Finally, For the contractor to set up his new office, we will try to collect data from the following,
+https://www.rentcafe.com/average-rent-market-trends/us/il/chicago/
+The data gives the Chicago rental market trend in the city of Chicago neighborhood.
+
+Approach:
+1)	Collection of Chicago city neighborhood data.
+2)	Using the geocoder library to collect the latitude and longitude data of the neighborhoods.
+3)	Using FourSquare API we will find all venues for each neighborhood.
+4)	Filter out all venues that are restaurants.
+5)	Filter out the Vegan food option among all. 
+6)	Visualize the Ranking of neighborhoods using the folium library.
+7)	For the contractor’s new office setup, the Chicago city rental market trend data analysis to identify the suitable neighborhood for the business
