@@ -1,0 +1,30 @@
+As a part of a capstone final project, I have chosen to explore vegan restaurants in the city of Chicago, Illinois, USA. 
+Background:
+The city of Chicago has been located on the shore of Lake Michigan. It is the third largest populated city in the USA. In 2018, 58 million domestic and international visitors visited the city became the second most visited cities in the USA. It is an international hub of multinational companies and culture. Hence, the city of Chicago attracts immigrants from all over the world due to multidimensional job opportunities and for the higher education and research.
+Chicago is one of the fastest growing cities in the world. There are more than 200 neighborhoods by the community area in Chicago. The Chicago downtown area is referred to as ‘The Loop’ by the locals. The loop is a central business district of the city. The city has a widest racial and ethnic population which gets reflected in the city’s food culture. Chicago is world famous for deep-dish pizza and non-vegetarian food items. However, considering the global environmental impact of industrial farming of animal and sustainability, awareness in the vegan diet has increased since 2010. Hence, as a part of the final project, I will aim to find out the possible vegan food options in the downtown Chicago.
+The following work aim to answer listed below questions,
+1)	Looking to open a vegan restaurant 
+a)	I would like to explore what kind of vegan options available in supermarkets and/or restaurants in the Chicago city downtown. 
+b)	Is it a good option to open a vegan restaurant? 
+c)	Which neighborhood will be most suitable to open the vegan restaurant?
+
+2)	If a contractor is trying to start his new business
+a)	Which neighborhood would be good to set up their new office?
+Data description:
+To answer the above questions the following data has been collected,
+1)	The city of Chicago neighborhood by community area was collected to gather information about the neighborhoods and community area.
+https://en.wikipedia.org/wiki/List_of_neighborhoods_in_Chicago
+The latitude and longitude data will get collected using the geocoder python library.
+2)	Various restaurants and vegan restaurant information will get collected Foursquare API. The following data will provide the information on vegan options available in the Chicago downtown neighborhoods.
+3)	For the contractor to set up his new office, we will try to collect data from the following,
+https://www.rentcafe.com/average-rent-market-trends/us/il/chicago/
+The data gives the Chicago rental market trend in the city of Chicago neighborhood.
+
+Approach:
+1)	Collection of Chicago city neighborhood data.
+2)	Using the geocoder library to collect the latitude and longitude data of the neighborhoods.
+3)	Using FourSquare API we will find all venues for each neighborhood.
+4)	Filter out all venues that are restaurants.
+5)	Filter out the Vegan food option among all. 
+6)	Visualize the Ranking of neighborhoods using the folium library.
+7)	For the contractor’s new office setup, the Chicago city rental market trend data analysis to identify the suitable neighborhood for the business
