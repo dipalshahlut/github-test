@@ -1,3 +1,6 @@
+In a city of your choice, if someone is looking to open a restaurant, where would you recommend that they open it? 
+Similarly, if a contractor is trying to start their own business, where would you recommend that they setup their office?
+
 As a part of a capstone final project, I have chosen to explore vegan restaurants in the city of Chicago, Illinois, USA. 
 Background:
 The city of Chicago has been located on the shore of Lake Michigan. It is the third largest populated city in the USA. 
